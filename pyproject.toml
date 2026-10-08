@@ -1,0 +1,13 @@
+[project]
+name = "ai-study"
+version = "0.1.0"
+description = "AI 学习项目"
+readme = "README.md"
+authors = [
+    { name = "lcn29", email = "canlee529@gmail.com" }
+]
+requires-python = ">=3.14.4"
+dependencies = [
+    "torch==2.14.1",
+    "transformers==5.19.0",
+]
