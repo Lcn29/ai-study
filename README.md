@@ -2,6 +2,10 @@
 
 AI 学习项目，使用 uv 管理 Python 环境和依赖。目前处于初始化阶段，脚本入口为 `src/main.py`，运行后输出 `Hello World`，已添加 Transformers 5.19.0 稳定版依赖，尚未添加测试。
 
+## 学习文档
+
+从 [AI 学习引导](docs/学习引导.md)开始，按 12 个阶段阅读 32 篇课文和 12 篇阶段串讲，并通过练习与阶段验收检查掌握情况。课程文档集中在 `docs/lesson/`；[专用名词](docs/专用名词.md)保留在 `docs/`，供随时查阅。
+
 ## 环境要求
 
 - 已安装 uv，且可以通过 `uv --version` 查看版本。
@@ -65,6 +69,10 @@ uv run python -c 'from importlib.metadata import version; print(version("transfo
 
 ```text
 ai-study/
+├── docs/
+│   ├── lesson/        # 32 篇课文与12篇阶段串讲
+│   ├── 学习引导.md    # 学习路线与课程入口
+│   └── 专用名词.md    # 通用术语资料
 ├── src/
 │   └── main.py        # 脚本入口
 ├── .gitignore         # Git 忽略规则
