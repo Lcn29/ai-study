@@ -1,0 +1,59 @@
+docs/question.md
+  s_14666eac7cf5a0::t_9644485ec651c9 2,4,7,22-25,27-40,42-61,63-118,121-124,126-128,130-137,139-204
+  s_14666eac7cf5a0::t_4d2f609b938949 1,3,5-6,8-21,26,41,62,119-120,125,129,138,206,212,221,223-225,227-229,231,233,244-247,250,252-255,264-265
+  s_14666eac7cf5a0::t_8ddd4272946f46 205,207-211,213-220,222,226,230,232,234-243,248-249,251,256-263,266-276
+docs/note.md
+  h_822e68aee7a457 1-31
+docs/专用名词.md
+  s_588a09310e118f::t_e4b379435b89ac 14,17,98-105
+  s_588a09310e118f::t_e9f7700607d167 13,90-97
+  s_a5904f0d502b7a::t_1cf740f622fa5d 15,21,106-113
+  s_588a09310e118f::t_3444f81bbdfaef 11-12,19-20,74-89
+  s_588a09310e118f::t_21e73fd81dd130 18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "92423161525230a47dd2aa012d85786d5ffc5729",
+  "prompts": {},
+  "humans": {
+    "h_822e68aee7a457": {
+      "author": "Can <can@MacBook-Air-M5.local>"
+    }
+  },
+  "sessions": {
+    "s_14666eac7cf5a0": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a15313-746b-71f3-98d5-8e908447a823",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Can <can@MacBook-Air-M5.local>",
+      "custom_attributes": {
+        "employee_email": "licanxin@gofo.com"
+      }
+    },
+    "s_588a09310e118f": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a152ce-7225-7061-aed3-21d210c45a94",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Can <can@MacBook-Air-M5.local>",
+      "custom_attributes": {
+        "employee_email": "licanxin@gofo.com"
+      }
+    },
+    "s_a5904f0d502b7a": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_e8368faf1ffeHF2VhLiXS1hCDd",
+        "model": "unknown"
+      },
+      "human_author": "Can <can@MacBook-Air-M5.local>",
+      "custom_attributes": {
+        "employee_email": "licanxin@gofo.com"
+      }
+    }
+  }
+}
